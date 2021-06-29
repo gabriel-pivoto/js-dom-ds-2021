@@ -1,5 +1,5 @@
 body {
-    background-color: #f9f9fa
+    background-image: linear-gradient( to right, red, green, yellow, blue ); 
 }
 
 @media (max-width:991.98px) {
@@ -15,7 +15,7 @@ body {
 }
 
 .padding {
-    padding-left: 25rem;
+    padding-left: 8rem;
     padding-top: 10rem;
 }
 
@@ -37,10 +37,11 @@ body {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-image: linear-gradient( to right, red, green, yellow, blue ); 
     background-clip: border-box;
     border: 1px solid #d2d2dc;
-    border-radius: 0
+    border-radius: 45px;
+    
 }
 
 
@@ -66,7 +67,7 @@ body {
 }
 
 .add-items {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     overflow: hidden
 }
 
@@ -120,6 +121,7 @@ body {
 
 .add-items {
     margin-bottom: 1.5rem;
+    
     overflow: hidden
 }
 
@@ -190,10 +192,13 @@ body {
 }
 
 .close:hover {
-  background-color: #0f88ff;
-  color: white;
-}
 
-.lista_atividades{
-    margin-left: 2%;
+  color: rgb(240, 39, 39);
+}
+.lista_atividade{
+    margin-left: 5%;
+}
+.tarefa_concluida{
+    text-decoration: line-through;
+    color: red;
 }

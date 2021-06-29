@@ -1,2 +1,4 @@
-# js_dom_ds_2021
-Projeto didático para Javascript(DOM) para turma de desenvolvimento de sistemas 2021.
+﻿--- DOM e JS ---
+--- LISTA DE TAREFAS ---
+
+baixe o código e abra o html para poder usufruir do código.
